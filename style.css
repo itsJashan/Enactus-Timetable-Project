@@ -1,0 +1,156 @@
+/* Popins Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+
+body{
+    display: flex;
+    background: #E9ECE6;
+    justify-content: center ;
+    height: 100vh;
+    margin-right: 10%;
+    
+}
+
+th.column,th.monday,th.tuesday,th.wednesday,th.thursday,th.friday,th.saturday,th.sort,th.remove{
+    display: table-cell;
+    height: 40px;
+    width: 120px;
+    background: #99d4cc;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); */
+}
+
+.time{
+    display: flex;
+    height: 80px;
+    width: 130px;
+    background: #BCCBC9;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* Hover effect for red tile */
+.time:hover {
+    background-color: #a7b4b2;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subject{
+    display: flex;
+    height: 80px;
+    width: 160px;
+    background: transparent;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect green tile */
+
+.subject:hover {
+    background-color: #C0DFD9;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Add these CSS rules to your existing stylesheet */
+.english{
+    background-color: #FFB2B1;
+}
+
+.chemistry{
+    background-color: #BCFFBC;
+}
+
+.maths{
+    background-color: #A2EDFF;
+}
+
+.egcad{
+    background-color: #C9B1FF;
+}
+
+.bee{
+    background-color: #FFCAF2;
+}
+
+/* Social Media Links Section Styles */
+.follow-me-text {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 10px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.social-media-links {
+    display: flex;
+    height: 40px;
+    width: 400px;
+    margin-left: 1000px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 5px;
+    left: 0;
+    right: 0;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+/* Instagram Icon Color */
+.instagram {
+    color: #E4405F;
+}
+
+/* LinkedIn Icon Color */
+.linkedin {
+    color: #0077B5;
+}
+
+/* GitHub Icon Color */
+.github {
+    color: #211F1F;
+}
+
+/* Animation Styles */
+.social-icon:hover {
+    color: #798fa7;
+    transform: scale(1.2);
+}
+
