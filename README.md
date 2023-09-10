@@ -13,8 +13,8 @@ The Time Table Project is a web-based application that allows users to create an
 
 ## Getting Started
 
-1. Clone the repository to your local machine. git clone https://github.com/your-username/time-table-project.git
-
+1. Clone the repository to your local machine.
+  
 2. Open the project folder in your code editor.
 
 3. Customize the schedule by adding or editing time slots and subjects in the HTML file.
