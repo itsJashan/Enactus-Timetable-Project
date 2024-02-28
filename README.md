@@ -1,4 +1,4 @@
-# Time Table Project
+# My Time Table
 
 ## Overview
 
